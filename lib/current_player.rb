@@ -4,7 +4,7 @@ def turn_count(board)
     if space != " "
       count += 1
     else
-      print "Not available, occupied by #{space}"
+      #print "Not available, occupied by #{space}"
     end
   end
   return count
