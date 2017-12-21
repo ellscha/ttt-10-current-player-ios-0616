@@ -5,6 +5,8 @@ def turn_count(board)
       count += 1
     else
       print "Not available, occupied by #{space}"
+    end
+  end
 end
 
 def current_player()
