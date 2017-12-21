@@ -3,7 +3,6 @@ def turn_count(board)
   board.each do |space|
     if space != " "
       count += 1
-    else
       #print "Not available, occupied by #{space}"
     end
   end
