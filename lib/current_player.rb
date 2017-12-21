@@ -14,5 +14,5 @@ def current_player(board)
   count = turn_count(board)
   turn = count%2 ? "O" : "X"
   #Ternary where if it is o's turn it is false
-  
+
 end
